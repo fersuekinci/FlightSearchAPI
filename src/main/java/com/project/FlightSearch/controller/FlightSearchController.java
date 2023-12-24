@@ -10,10 +10,11 @@ import java.time.ZonedDateTime;
 import java.util.List;
 
 @RestController
-@RequestMapping("/search/flights")
+@RequestMapping("/api/search/flights")
 @RequiredArgsConstructor
 public class FlightSearchController {
     private final FlightSearchService flightSearchService;
+
     @GetMapping
     public ResponseEntity<List<FlightDTO>> getFlights(@RequestParam String departureCity, @RequestParam String arrivalCity,
                                                       @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) ZonedDateTime departureDate,
