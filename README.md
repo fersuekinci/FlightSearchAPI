@@ -8,16 +8,16 @@ Bir uçuş arama uygulaması için backend API geliştirilecek.
   * Data Modeling: Veritabanında saklanacak bilgilerin tasarlanması ve modellenmesi gerekiyor.
     Veritabanı olarak herhangi bir relational (SQL) ya da NoSQL database kullanılabilir.
     * Saklanacak bilgiler:
-      *  Uçuşlar
-      *  ID
-      *  Kalkış havaalanı
-      *  Varış havaalanı
-      *  Kalkış tarih/saat
-      *  Dönüş tarih/saat
-      *  Fiyat
-      *  Havaalanları
-      *  ID
-      *  Şehir
+      * Uçuşlar
+        * ID
+        * Kalkış havaalanı
+        * Varış havaalanı
+        * Kalkış tarih/saat
+        * Dönüş tarih/saat
+        * Fiyat
+      * Havaalanları
+        * ID
+        * Şehir
         
 * CRUD yapısı kurgulanmalı: CRUD (Create, Read, Update, Delete) yapısı, bir veritabanı üzerinde en yaygın olarak gerçekleştirilen temel işlemleri temsil eder.
   *  Bu yapının kurgulanması, verilerin tutarlı ve organize bir şekilde yönetilmesini sağlar. Bu sayede kullanıcılar gerektiği gibi veri oluşturabilir, okuyabilir, güncelleyebilir ve silebilir.
